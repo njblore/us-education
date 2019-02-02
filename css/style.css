@@ -1,0 +1,33 @@
+#states {
+  stroke: #d2d2d2;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+#counties {
+  stroke-width: 0.05px;
+  stroke-opacity: 0.5;
+}
+
+#canvas {
+  background: #efefef;
+  display: block;
+  margin: auto;
+}
+
+#title {
+  text-anchor: middle;
+  font-size: 2.2rem;
+}
+
+#description {
+  text-anchor: middle;
+  font-size: 1.1rem;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  background: ;
+  pointer-events: none;
+}
