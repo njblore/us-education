@@ -2,11 +2,11 @@ var _slicedToArray = function () {function sliceIterator(arr, i) {var _arr = [];
 
 /* declare vairables */
 
-var height = document.documentElement.clientHeight;
-var width = document.documentElement.clientWidth;
-var margin = { top: height/5, left: width/6, right: width/6, bottom: height/5 };
-var innerHeight = height - margin.top - margin.bottom;
-var innerWidth = width - margin.left - margin.right;
+const innerHeight = 700;
+const innerWidth = 1000;
+const margin = {top: 200, left: 100, right: 100, bottom: 20};
+const height = innerHeight + margin.top + margin.bottom;
+const width = innerWidth + margin.left + margin.right;
 var educationDataSplits = [6, 10, 11.5, 14.7, 17.8, 21.5, 29.9, 42];
 var legendWidth = width / 4;
 
